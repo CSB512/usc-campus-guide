@@ -9,9 +9,12 @@ The USC Campus Guide is a helpful tool for new students to navigate USC main cam
 ## Project File Structure
 - Lib 
      - screens/  *All Code for the screens go into this folder*
-           - screen_name/ *Make a folder for your screen*                 
+     - 
+           - screen_name/ *Make a folder for your screen* 
+           -                 
                  - screen_name.dart *name your screen file the same as the folder*
                  - widgets/ *folder for individual widgets that form part of the screen*
+                 - 
                        - widgets.dart *An export file for all widgets created in the folder*
                        - widget_name.dart *Widget Source Code*   
                                    
