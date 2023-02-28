@@ -9,19 +9,16 @@ The USC Campus Guide is a helpful tool for new students to navigate USC main cam
 ## Project File Structure
 - Lib 
      - screens/  *All Code for the screens go into this folder*
-       
-           - screen_name/ *Make a folder for your screen*       
-                        
+           - screen_name/ *Make a folder for your screen*                 
                  - screen_name.dart *name your screen file the same as the folder*
                  - widgets/ *folder for individual widgets that form part of the screen*
-                 - 
                        - widgets.dart *An export file for all widgets created in the folder*
                        - widget_name.dart *Widget Source Code*   
                                    
-      - domains *This folder holds the business logic for the apps functionalities*
-      - utils *This folder is used to house constants and even widgets that are reused multiple times across the entire app*
-      - providers *This folder contains the files related to providers in the app*
-      - models  *This folder contains the files for the data models used in the app*
+    - domains *This folder holds the business logic for the apps functionalities*
+    - utils *This folder is used to house constants and even widgets that are reused multiple times across the entire app*
+    - providers *This folder contains the files related to providers in the app*
+    - models  *This folder contains the files for the data models used in the app*
          
   
   
