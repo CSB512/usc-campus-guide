@@ -9,19 +9,19 @@ The USC Campus Guide is a helpful tool for new students to navigate USC main cam
 ##Project File Structure
 - Lib 
      |__
-        -> screens [^1]: All Code for the screens go into this folder
+        -> screens  *All Code for the screens go into this folder*
                  |__
-                    ->screen_name [^1]: Make a folder for your screen
+                    ->screen_name *Make a folder for your screen*
                                 |__
-                                   -> screen_name.dart [^1]: name your screen file the same as the folder
-                                   -> widgets [^1]: folder for individual widgets that form part of the screen
+                                   -> screen_name.dart *name your screen file the same as the folder*
+                                   -> widgets *folder for individual widgets that form part of the screen*
                                              |__
-                                                -> widgets.dart [^1]: An export file for all widgets created in the folder
-                                                -> widget_name.dart [^1}: Widget Source Code               
-        -> domains [^1]: This folder holds the business logic for the apps functionalities
-        -> utils [^1]: This folder is used to house constants and even widgets that are reused multiple times across the entire app
-        -> providers [^1]: This folder contains the files related to providers in the app
-        -> models [^1]: This folder contains the files for the data models used in the app
+                                                -> widgets.dart *An export file for all widgets created in the folder*
+                                                -> widget_name.dart *Widget Source Code*               
+        - domains *This folder holds the business logic for the apps functionalities*
+        - utils *This folder is used to house constants and even widgets that are reused multiple times across the entire app*
+        - providers *This folder contains the files related to providers in the app*
+        - models  *This folder contains the files for the data models used in the app*
          
   
   
