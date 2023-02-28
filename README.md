@@ -1,17 +1,15 @@
 # usc-campus-guide
 The USC Campus Guide is a helpful tool for new students to navigate USC main campus. It provides a detailed map, a search function, and a GPS feature to help students find their way around.  The USC Campus Guide is an essential tool for new students to make the most of their university experience.
 
-#Project Rules
+# Project Rules
 - Test all your code. The tests for your commit will be examined before your code is merged into the main branch.
 - Please use lowercase with underscores naming convention for your folder and file names.
 - Ensure commit messages are descriptive and clear to understand
 
-##Project File Structure
+## Project File Structure
 - Lib 
-     |__
-        -> screens  *All Code for the screens go into this folder*
-                 |__
-                    ->screen_name *Make a folder for your screen*
+     - screens  *All Code for the screens go into this folder*
+       /screen_name *Make a folder for your screen*
                                 |__
                                    -> screen_name.dart *name your screen file the same as the folder*
                                    -> widgets *folder for individual widgets that form part of the screen*
